@@ -13,6 +13,7 @@ Here you can find the specs, and spec template, for each release:
    :maxdepth: 1
 
    specs/ocata/index
+   specs/pike/index
 
 
 masakari-specs Repository Information
