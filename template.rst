@@ -12,9 +12,9 @@ http://creativecommons.org/licenses/by/3.0/legalcode
   For help with syntax, see http://sphinx-doc.org/rest.html
   To test out your formatting, see http://www.tele3.cz/jbar/rest/rest.html
 
-=============================
- The title of your blueprint
-=============================
+===========================
+The title of your blueprint
+===========================
 
 Include the URL of your launchpad blueprint:
 

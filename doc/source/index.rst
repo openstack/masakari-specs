@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 masakari-specs Design Specifications
-==================================================
+====================================
 
 Here you can find the specs, and spec template, for each release:
 
@@ -17,7 +17,7 @@ Here you can find the specs, and spec template, for each release:
 
 
 masakari-specs Repository Information
-===================================================
+=====================================
 
 .. toctree::
    :maxdepth: 2
