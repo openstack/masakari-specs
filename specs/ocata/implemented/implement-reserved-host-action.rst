@@ -123,14 +123,14 @@ host's "reserved" property as False.
 
 Rest API can be::
 
-method: PUT
-URL: URL that is passed to the workflow(contains notification_id)
-Body:
-result {
-    notification_status: status of the notification, either 'error' or
-    'finished', used_reserved_hosts: list of actually used reserved_hosts
-    by workflow
-}
+    method: PUT
+    URL: URL that is passed to the workflow(contains notification_id)
+    Body:
+    result {
+        notification_status: status of the notification, either 'error' or
+        'finished', used_reserved_hosts: list of actually used reserved_hosts
+        by workflow
+    }
 
 Pros:
 -----

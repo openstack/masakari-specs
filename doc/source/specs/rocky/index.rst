@@ -1,8 +1,8 @@
 =============================
-Masakari Ocata Specifications
+Masakari Rocky Specifications
 =============================
 
-Ocata implemented specs:
+Rocky implemented specs:
 
 .. toctree::
    :glob:
@@ -10,7 +10,7 @@ Ocata implemented specs:
 
    implemented/*
 
-Ocata approved (but not implemented) specs:
+Rocky approved (but not implemented) specs:
 
 .. toctree::
    :glob:

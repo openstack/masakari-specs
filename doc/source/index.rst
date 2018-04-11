@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-masakari-specs Design Specifications
+Masakari specs Design Specifications
 ====================================
 
 Here you can find the specs, and spec template, for each release:
@@ -12,12 +12,13 @@ Here you can find the specs, and spec template, for each release:
    :glob:
    :maxdepth: 1
 
+   specs/rocky/index
    specs/queens/index
-   specs/ocata/index
    specs/pike/index
+   specs/ocata/index
 
 
-masakari-specs Repository Information
+Masakari specs Repository Information
 =====================================
 
 .. toctree::
@@ -25,6 +26,15 @@ masakari-specs Repository Information
 
    README <readme>
    contributing
+
+
+Masakari specs template
+=======================
+
+.. toctree::
+   :maxdepth: 2
+
+   specs/template
 
 
 Indices and tables
