@@ -1,9 +1,6 @@
-===============================
-README
-===============================
-
+=================================
 OpenStack Masakari Specifications
-=============================
+=================================
 
 
 This git repository is used to hold approved design specifications for additions

@@ -19,18 +19,15 @@ import sys
 sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ----------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    #'sphinx.ext.intersphinx',
-    'oslosphinx',
-    'yasfb',
-]
+              'openstackdocstheme',
+              'yasfb'
+             ]
 
-# Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/masakari-specs'
-feed_author = 'OpenStack Development Team'
+# config for openstackdocstheme
+repository_name = 'openstack/masakari-specs'
+bug_project = 'masakari-specs'
+bug_tag = ''
 
 exclude_patterns = [
     'template.rst',
@@ -73,7 +70,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
 # html_theme_path = ["."]
-# html_theme = '_theme'
+html_theme = 'openstackdocs'
 # html_static_path = ['static']
 
 # Output file base name for HTML help builder.

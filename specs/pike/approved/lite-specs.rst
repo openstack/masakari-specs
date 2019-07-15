@@ -99,11 +99,11 @@ Add db purge support
 
                Advantages:
                1. Operator has flexibility to decide which notifications needs
-                  to be deleted from the notification table.
+               to be deleted from the notification table.
 
                Disadvantages:
                1. Only notification records will be deleted in this case,
-                  records from other tables will remain as it is.
+               records from other tables will remain as it is.
 
 :impacts: None
 
