@@ -25,9 +25,10 @@ extensions = [
              ]
 
 # config for openstackdocstheme
-repository_name = 'openstack/masakari-specs'
-bug_project = 'masakari-specs'
-bug_tag = ''
+openstackdocs_repo_name = 'openstack/masakari-specs'
+openstackdocs_auto_name = False
+openstackdocs_bug_project = 'masakari-specs'
+openstackdocs_bug_tag = ''
 
 exclude_patterns = [
     'template.rst',
@@ -40,6 +41,7 @@ try:
     extensions.append('sphinxcontrib.spelling')
 except ImportError:
     pass
+
 
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
 # text edit cycles.
@@ -63,7 +65,12 @@ add_function_parentheses = True
 add_module_names = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
+
+# -- yasfb configuration ------------------------------------------------------
+
+feed_base_url = 'https://specs.openstack.org/openstack/masakari-specs'
+feed_author = 'OpenStack Masakari Team'
 
 # -- Options for HTML output --------------------------------------------------
 
