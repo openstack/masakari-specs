@@ -2,7 +2,7 @@
 Masakari Ussuri Specifications
 ==============================
 
-Train implemented specs:
+Ussuri implemented specs:
 
 .. toctree::
    :glob:
@@ -10,7 +10,7 @@ Train implemented specs:
 
    implemented/*
 
-Train approved (but not implemented) specs:
+Ussuri approved (but not implemented) specs:
 
 .. toctree::
    :glob:
