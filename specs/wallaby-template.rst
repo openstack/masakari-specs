@@ -19,8 +19,9 @@ respectively.
 
 Some notes about the masakari-spec and blueprint process:
 
-* Not all blueprints need a spec. For more information see
-  https://wiki.openstack.org/wiki/Masakari-specs
+* Not all blueprints need a spec. For more information see the
+  `Masakari docs <https://docs.openstack.org/masakari/latest/>`__,
+  especially the Contributor's section.
 
 * The aim of this document is first to define the problem we need to solve,
   and second agree the overall approach to solve that problem.
