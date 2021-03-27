@@ -5,7 +5,7 @@
  http://creativecommons.org/licenses/by/3.0/legalcode
 
 ==========================================
-repeated check to determine host status
+Repeated check to determine host status
 ==========================================
 
 https://blueprints.launchpad.net/masakari-monitors/+spec/retry-check-when-host-failure
