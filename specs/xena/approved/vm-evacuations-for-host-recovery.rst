@@ -157,8 +157,11 @@ Assignee(s)
 
 Primary assignee:
 
-* shenxinxin <shenxinxin@inspur.com>
 * suzhengwei <sugar-2008@163.com>
+
+Historical assignee (pre-Yoga):
+
+* shenxinxin <shenxinxin@inspur.com>
 
 Work Items
 ----------
@@ -208,3 +211,5 @@ History
      - Description
    * - Xena
      - Introduced
+   * - Yoga
+     - Re-proposed
