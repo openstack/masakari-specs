@@ -2,6 +2,9 @@
 OpenStack Masakari Specifications
 =================================
 
+.. image:: https://governance.openstack.org/tc/badges/masakari-specs.svg
+
+.. Change things from this point on
 
 This git repository is used to hold approved design specifications for additions
 to the Masakari project. Reviews of the specs are done in gerrit, using a
@@ -15,7 +18,6 @@ Where there are two sub-directories:
 
   specs/<release>/approved: specifications approved but not yet implemented
   specs/<release>/implemented: implemented specifications
-
 
 The lifecycle of a specification
 --------------------------------
@@ -47,12 +49,10 @@ This directory structure allows you to see what we thought about doing,
 decided to do, and actually got done. Users interested in functionality in a
 given release should only refer to the ``implemented`` directory.
 
-
 Example specifications
 ----------------------
 
 You can find an example spec in ``specs/ocata-template.rst``.
-
 
 Working with gerrit and specification unit tests
 ------------------------------------------------
@@ -68,8 +68,5 @@ confidence in the Jenkins result), please execute the following command::
 After running ``tox``, the documentation will be available for viewing in HTML
 format in the ``doc/build/`` directory.
 
-
 * Free software: Apache license
 * Documentation: http://docs.openstack.org/developer/masakari-specs
-
-* TODO
